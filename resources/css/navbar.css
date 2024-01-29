@@ -1,0 +1,4 @@
+/* serve per la grandezza della navbar (rigo 1 navbar.blade.php) */
+.navbarsize {
+    height: 75px;
+}
