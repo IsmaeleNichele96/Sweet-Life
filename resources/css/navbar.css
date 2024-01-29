@@ -1,4 +1,54 @@
-/* serve per la grandezza della navbar (rigo 1 navbar.blade.php) */
-.navbarsize {
+:root {
+    color: rgb(255, 0, 110);
+}
+
+/* toglie il pallino del list item e ingradimento delle scritte all'hover */
+li {
+    list-style-type: none
+}
+
+li:hover {
+    font-weight: bold;
+    transition: 0.1s;
+    transition-delay: 0.1s;
+}
+
+
+
+/* (rigo 1 navbar.blade.php) */
+.navbarCustom {
     height: 75px;
+    background-color: rgb(255, 0, 110);
+    font-size: 3vh;
+    -webkit-box-shadow: 0px 25px 15px -7px #FF8FAB;
+    box-shadow: 0px 25px 15px -7px #FF8FAB;
+}
+
+/* modifico la searchbar */
+
+.searchCustom {
+    background-color: rgb(255, 143, 171);
+    border-color: rgb(255, 143, 171);
+}
+
+.searchCustom:focus {
+    background-color: #fdbdce;
+    border-color: #fdbdce;
+}
+
+/* modifico il bottone cerca */
+
+.btnCustom {
+    background-color: rgb(255, 0, 110);
+    border-color: black;
+    transition-duration: 0.6s;
+}
+
+.btnCustom:hover {
+    border-color: blueviolet;
+}
+
+/* modifico le tendine dei dropdown */
+.dropCustom {
+    background-color: rgb(253, 189, 206);
 }

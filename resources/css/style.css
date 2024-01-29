@@ -1,0 +1,17 @@
+:root {
+    color: rgb(255, 143, 171);
+}
+
+body {
+    background-color: rgb(255, 143, 171);
+
+}
+
+.imgBg {
+
+    background: url(../../public/img/sfondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}

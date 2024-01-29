@@ -1,15 +1,14 @@
 <x-layout>
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-6">
-                <h3>Accedi</h3>
+                <h3 class="mt-3">Accedi</h3>
                 <form method="POST" action="/login">
                     @csrf
-                    <div class="mb-3">
+                    <div class="mt-3 mb-3">
                         <label for="exampleInputEmail1" class="form-label">Indirizzo email</label>
                         <input name="email" type="email" class="form-control" id="exampleInputEmail1"
                             aria-describedby="emailHelp">
-
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Password</label>
@@ -17,7 +16,7 @@
                     </div>
                     <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        <label class="form-check-label" for="exampleCheck1">Ricordami</label>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
