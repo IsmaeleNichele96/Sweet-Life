@@ -29,8 +29,9 @@
             </ul>
             @guest
                 <li class="nav-item d-flex mr-auto">
-                    <a class="nav-link" href="{{ route('login') }}">Accedi / </a>
-                    <a class="nav-link me-2" href="{{ route('register') }}">&nbsp Registrati</a>
+                    <a class="nav-link" href="{{ route('login') }}">Accedi</a>
+                </li>
+                <li><a class="nav-link me-2" href="{{ route('register') }}">&nbsp Registrati</a>
                 </li>
             @else
                 <li class="nav-item dropdown">
